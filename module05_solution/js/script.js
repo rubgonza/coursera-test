@@ -109,7 +109,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
             // it into the home html snippet.
             //
             switchMenuToActive();
-            var finalHtml = homeHtmlUrl;
+            var finalHtml = "";
             finalHtml += "<section class='row'>";
 
             // Loop over categories
